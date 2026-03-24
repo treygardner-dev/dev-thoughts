@@ -1,0 +1,65 @@
+/*
+name: Trey Gardner
+project: dev-thoughts
+description:
+    This project is how I will hone my ability to create and deploy a website that is created 
+    entirely in raw html, css, and javascript. This website will allow me to post about anything
+    I feel like sharing with the world.
+*/
+
+/*#######PAGE BODY########*/
+
+.primary-body {
+    min-height: 100dvh;
+    background: linear-gradient(45deg, #6c9a80, #87ab87, #6c9a80);
+    color: #081131;
+}
+
+.primary-body h1 {
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.primary-body h2 {
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+/*#######HEADER SECTION#######*/
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-header {
+    flex: 1;
+}
+
+.center-header {
+    text-align: center;
+}
+
+.right-header {
+    flex: 1;
+    text-align: right;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.right-header a:link {
+    color:#081131
+}
+
+.right-header a:visited {
+    color: #0c4532;
+}
+
+.resume-display {
+    display: flex;
+    justify-content: center;
+}
