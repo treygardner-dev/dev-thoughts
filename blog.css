@@ -11,4 +11,16 @@ description:
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    color: #081131;
+}
+
+.topics-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
